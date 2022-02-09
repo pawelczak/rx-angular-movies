@@ -1,1 +1,13 @@
-<movies-nx-welcome></movies-nx-welcome>
+<h1>Movies</h1>
+
+<!--{{movies$ | async | json}}-->
+
+<ng-container *rxLet='movies$; let movies'>
+
+	<ul>
+		<li *ngFor='let movie of movies'>
+			{{movie.original_title}}
+		</li>
+	</ul>
+
+</ng-container>

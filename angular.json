@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "movie": "libs/movie",
     "movies": "apps/movies",
     "movies-e2e": "apps/movies-e2e"
   }
